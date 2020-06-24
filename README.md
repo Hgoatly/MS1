@@ -1,39 +1,18 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Bombay Groove Website
 
-Welcome USER_NAME,
+Bombay Groove is my own band. We have been together for 10 years, and perform Bollywood and Western music as a String 
+Quartet (Two Violins, a Viola and a 'Cello). We mainly perform at Asian Weddings, but also at parties and corporate events.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Our current website, just like our band, is 10 years old too. It's starting to look dated, and lacks some of the functionality of a 
+modern site. For example, it lacks responsive design. I would like to use this project to design and build my own custon 
+Bombay Groove site. One that better represents our services and brand, and is much more up-to-date in terms of UI and UX.
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+* User 1 might be browsing the web in order to find live music for their wedding or event.
+* User 2 might be looking to see whether we can play a particular song for their event.
+* user 3 might have seen our advertising, and want to find out exactly what we do.
+* User 4 might be a musician looking to work with us in future.
+* User 5 might be another wedding/events industry professional looking to work with us. 
