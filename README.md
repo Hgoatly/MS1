@@ -11,8 +11,17 @@ Bombay Groove site. One that better represents our services and brand, and is mu
 
 ### User Stories
 
-* User 1 might be browsing the web in order to find live music for their wedding or event.
-* User 2 might be looking to see whether we can play a particular song for their event.
-* user 3 might have seen our advertising, and want to find out exactly what we do.
-* User 4 might be a musician looking to work with us in future.
-* User 5 might be another wedding/events industry professional looking to work with us. 
+* User Story 1: I am a potential client, and want to find out about what you do, and what you charge 
+  so that I can decide whether to book you for my event.
+* User Story 2: I am a potential client and I want to see whether you play my favourite song
+  so that I can book you for my event.
+* user Story 3: .
+* User Story 4: I am a musician, and am interested in getting in touch with you so that I can 
+  potentially work/collaborate with you in the future.
+* User Story 5: I am an event planner/entertainment agency, and I want to see photos of you, and 
+  videos of you perform, so that I can potentially collaborate with you in the future. 
+
+  I created some wireframes in response to the above User Stories. After creating the 1st site map, 
+  I realised that the scope of the project was too big, and didn't really respond to the user Stories 
+  in a conscise manner with good UX. So I then created 'Site Map 2', which is much better from a UX 
+  point of view. My wireframes are here:    
