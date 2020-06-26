@@ -13,9 +13,7 @@ body{
 .navbar-container{
     position: fixed;
     width: 100%;
-    z-index:10;
-    font-family: ;
-    
+    z-index:10;  
 }
 
 .callout-container-fluid{
@@ -61,7 +59,8 @@ body{
 }
 /* About Us */
 
-.about-us{
+.about-us,
+.quotes{
     margin: 8rem 2rem;
 }
 
@@ -69,7 +68,26 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 
+.about-us p{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* showreel */
 .showreel{
     
 }
+
+/* Quotes */
+
+.quotes-header{
+     font-family: 'Bebas Neue', cursive;
+}
+
+.quotes p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Media Queries */
+
