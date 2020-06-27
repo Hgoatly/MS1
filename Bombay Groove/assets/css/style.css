@@ -134,11 +134,13 @@ footer {
     background: white;
 }
 
-/* Media Queries */
+
 
 @media screen and (max-width: 600px){
     .callout-container-fluid{
-        background:url("../images/bombay-groove-kudos-entertainment.jpg") no-repeat center center fixed;;
+        background:#b94c58 no-repeat center center fixed;
+        background-size: cover;
     }
 }
+
 
