@@ -59,18 +59,16 @@ body{
 }
 /* About Us */
 
-.about-us,
-.quotes{
-    margin: 8rem 2rem;
-}
-
 .about-us-header{
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
 
-.about-us p{
+.about-us p {
     font-family: 'Roboto', sans-serif;
+    text-justify: center;
 }
+
 
 /* showreel */
 
@@ -82,13 +80,27 @@ body{
 
 .quotes-header{
      font-family: 'Bebas Neue', cursive;
+     text-align: center;
 }
 
 .quotes p{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    text-justify: center;
 } 
+
+/* Special Margins and Padding */
+
+.about-us,
+.quotes{
+    margin: 8rem 2rem;
+}
+
+.about-us-header,
+.quotes-header {
+    margin-bottom: 5rem;
+}
 
 /* Footer */
 
@@ -103,6 +115,11 @@ footer {
 
 .social-links{ 
     text-align: center;
+    padding-top: 15px;
+}
+
+.social-links li {
+    margin: 15px;
 }
 
 .social-links li a i {
@@ -110,10 +127,18 @@ footer {
     height: 32px;
     padding: 15px 0;
     border-radius: 50%;
-    line-height:5px;
+    line-height:4px;
     text-align: center;
-    text-justify: center;
+   /* text-justify: center; */
     color: #212529;
     background: white;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px){
+    .callout-container-fluid{
+        background:url("../images/bombay-groove-kudos-entertainment.jpg") no-repeat center center fixed;;
+    }
 }
 
