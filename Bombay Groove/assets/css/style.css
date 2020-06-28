@@ -32,11 +32,17 @@ body{
    }
 
 .about-us-container{
+   padding: 3rem;
    }
 
 .showreel-container{}
 
-.quotes-container{}
+.quotes-container{
+    background: #ff4f4f;;
+    opacity: 0.75;    
+    padding: 3rem;
+    }
+    
 
 /* End of Containers */
 
@@ -81,6 +87,8 @@ body{
 .quotes-header{
      font-family: 'Bebas Neue', cursive;
      text-align: center;
+     color: white;
+     
 }
 
 .quotes p{
@@ -88,18 +96,20 @@ body{
     font-size: 1rem;
     font-weight: 400;
     text-justify: center;
+    color: white;
 } 
 
 /* Special Margins and Padding */
 
 .about-us,
 .quotes{
-    margin: 8rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .about-us-header,
 .quotes-header {
-    margin-bottom: 5rem;
+    padding-top: 0;
+    padding-bottom: 3rem;
 }
 
 /* Footer */
@@ -135,11 +145,23 @@ footer {
 }
 
 
-
+/*
 @media screen and (max-width: 600px){
     .callout-container-fluid{
+        position: 
         background:#b94c58 no-repeat center center fixed;
-        background-size: cover;
+        background-size: contain; */
+        background: url("../images/bombay-groove-color.JPG") no-repeat;
+    background-size: contain;
+    }
+
+}
+*/
+
+@media screen and (max-width:600px){
+    .about-us-header
+    .quotes-header{
+        padding-top: 0;
     }
 }
 
