@@ -1,6 +1,10 @@
 body{
  
 }
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
  /* containers*/
 
 .container-fluid{
@@ -172,6 +176,35 @@ footer {
 .watch-listen-header{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    padding: 3rem;
+    padding: 6rem;
+    padding-bottom: 0;
     margin-top: 3rem;
+    font-size: 4rem;
 }
+
+. {
+    text-justify: center;
+}
+/*
+.watch-listen-container{
+    height: 90vh;
+    width: 100%;
+    background: url("../images/bombay-groove-color.JPG") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    opacity: 0.1;
+}
+*/
+/*
+.watch-listen-container-fluid{
+    background: url("../images/flower-wall.jpg") no-repeat center center fixed;
+    
+}
+*/
