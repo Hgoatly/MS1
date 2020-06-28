@@ -75,13 +75,6 @@ body{
     text-justify: center;
 }
 
-
-/* showreel */
-
-.showreel{
-    
-}
-
 /* Quotes */
 
 .quotes-header{
@@ -165,4 +158,20 @@ footer {
     }
 }
 
+/*--------------------------------------Watch/Listen------------------------------------*/
 
+
+/* showreel */
+
+.showreel{
+    
+}
+
+/* Watch-Listen */
+
+.watch-listen-header{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 3rem;
+}
