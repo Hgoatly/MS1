@@ -40,8 +40,6 @@ p{
    padding: 3rem;
    }
 
-.showreel-container{}
-
 .quotes-container{
     background: #ff4f4f;
     opacity: 0.75;    
@@ -77,7 +75,7 @@ p{
 
 .about-us p {
     font-family: 'Roboto', sans-serif;
-    text-justify: center;
+    text-align: justify;
 }
 
 /* Quotes */
@@ -86,14 +84,13 @@ p{
      font-family: 'Bebas Neue', cursive;
      text-align: center;
      color: white;
-     
-}
+     }
 
 .quotes p{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    text-justify: center;
+    text-align: justify;
     color: white;
 } 
 
@@ -157,7 +154,7 @@ footer {
 */
 
 @media screen and (max-width:600px){
-    .about-us-header
+    .about-us-header,
     .quotes-header{
         padding-top: 0;
     }
@@ -180,35 +177,21 @@ footer {
     padding: 3rem 3rem 0 3rem;  
     margin-top: 3rem;
     font-size: 4rem;
+    color:#ff4f4f;
 }
 
-/*
 .watch-listen-container{
-    height: 90vh;
-    width: 100%;
-    background: url("../images/bombay-groove-color.JPG") no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    font-family: 'Bebas Neue', cursive;
-    position: relative;
-    opacity: 0.1;
+    padding-bottom: 3rem;
 }
-*/
-/*
-.watch-listen-container-fluid{
-    background: url("../images/flower-wall.jpg") no-repeat center center fixed;
-    
+
+.listen{
+    margin-top: 0rem;
+    color: white;
 }
-*/
 
 .audio-players{
     font-size: 10px;
-    color: #ff4f4f;
+    color: rgba(255, 79, 79, 0.75);
     line-break: anywhere;
     word-break: normal;
     overflow: hidden;
@@ -219,12 +202,17 @@ footer {
     font-weight: 100;    
     }
 
-
 iframe{
-    padding-left: 0px;
+    padding-left: 0rem;
 }
 
-ul{
-    padding-left: 0px;
+.audio-players ul{
+    padding-left: 0rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
     list-style-type: none;
+
 }
+
+.audio-container-fluid{
+    background: rgba(255, 79, 79, 0.75) no-repeat center center fixed;
