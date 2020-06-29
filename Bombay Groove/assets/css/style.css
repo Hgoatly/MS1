@@ -177,7 +177,7 @@ footer {
     padding: 3rem 3rem 0 3rem;  
     margin-top: 3rem;
     font-size: 4rem;
-    color:#ff4f4f;
+    color: rgba(255, 79, 79, 0.75);
 }
 
 .watch-listen-container{
