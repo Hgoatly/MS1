@@ -176,7 +176,7 @@ footer {
 .watch-listen-header{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    padding: 3rem 6rem 0 3rem;  
+    padding: 3rem 3rem 0 3rem;  
     margin-top: 3rem;
     font-size: 4rem;
 
@@ -214,10 +214,6 @@ footer {
     text-overflow: ellipsis;
     font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
     Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-    font-weight: 100;  
-    margin-top: 1rem;    
+    font-weight: 100;     
     }
 
-    .sound-cloud {
-        padding: 1rem;
-    }
