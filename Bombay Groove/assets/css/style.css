@@ -42,7 +42,7 @@ p{
 .showreel-container{}
 
 .quotes-container{
-    background: #ff4f4f;;
+    background: #ff4f4f;
     opacity: 0.75;    
     padding: 3rem;
     }
@@ -176,15 +176,10 @@ footer {
 .watch-listen-header{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    padding: 6rem;
-    padding-bottom: 0;
+    padding: 3rem 6rem 0 3rem;  
     margin-top: 3rem;
     font-size: 4rem;
-}
 
-. {
-    text-justify: center;
-}
 /*
 .watch-listen-container{
     height: 90vh;
@@ -208,3 +203,21 @@ footer {
     
 }
 */
+
+.audio-container{
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+    Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+    font-weight: 100;  
+    margin-top: 1rem;    
+    }
+
+    .sound-cloud {
+        padding: 1rem;
+    }
