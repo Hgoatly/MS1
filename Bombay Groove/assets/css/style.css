@@ -1,6 +1,7 @@
 body{
- 
+
 }
+
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -179,6 +180,7 @@ footer {
     padding: 3rem 3rem 0 3rem;  
     margin-top: 3rem;
     font-size: 4rem;
+}
 
 /*
 .watch-listen-container{
@@ -204,9 +206,9 @@ footer {
 }
 */
 
-.audio-container{
+.audio-players{
     font-size: 10px;
-    color: #cccccc;
+    color: #ff4f4f;
     line-break: anywhere;
     word-break: normal;
     overflow: hidden;
@@ -214,6 +216,15 @@ footer {
     text-overflow: ellipsis;
     font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
     Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
-    font-weight: 100;     
+    font-weight: 100;    
     }
 
+
+iframe{
+    padding-left: 0px;
+}
+
+ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
