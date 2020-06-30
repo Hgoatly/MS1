@@ -1,5 +1,5 @@
 body{
-
+overflow-x: hidden;
 }
 
 
@@ -180,7 +180,7 @@ footer {
     color: rgba(255, 79, 79, 0.75);
 }
 
-.watch-listen-container{
+.watch-listen-container-fluid{
     padding-bottom: 3rem;
 }
 
@@ -216,3 +216,4 @@ iframe{
 
 .audio-container-fluid{
     background: rgba(255, 79, 79, 0.75) no-repeat center center fixed;
+}
