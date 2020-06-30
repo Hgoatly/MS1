@@ -204,9 +204,11 @@ iframe{
     background: rgba(255, 79, 79, 0.75) no-repeat center center fixed;
 }
 /*-----------------------------------Gallery------------------------------------*/
+
 .jumbotron-gallery-header{
     color: white;
     font-size: 4rem;
+    position: relative;
 }
 
 .gallery-container-fluid{
@@ -222,14 +224,35 @@ iframe{
    justify-content: center;
     font-family: 'Bebas Neue', cursive;
     position: relative;
+    margin-bottom: 3rem;
    }
 
-.image-container-fluid{
+.image-container-fluid {
     padding: 0px;
-}
-   .image-container ul{
+    }
+
+.image-container-fluid ul{
     padding-left: 0rem;
     padding-top: 0rem;
-    margin-top: 0rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
     list-style-type: none;
+}
+
+.image-selection {
+    background: rgba(255, 79, 79, 0.75);
+}
+
+@media only screen and (max-width: 600px) {
+    .image-selection { 
+        background: white;
+    }
+    .image-container-fluid ul {  
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    list-style-type: none;
+    }
+    .gallery-container-fluid {
+        display: none;
+    }
 }
