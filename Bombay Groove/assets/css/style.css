@@ -139,20 +139,6 @@ footer {
     background: white;
 }
 
-
-/*
-@media screen and (max-width: 600px){
-    .callout-container-fluid{
-        position: 
-        background:#b94c58 no-repeat center center fixed;
-        background-size: contain; */
-        background: url("../images/bombay-groove-color.JPG") no-repeat;
-    background-size: contain;
-    }
-
-}
-*/
-
 @media screen and (max-width:600px){
     .about-us-header,
     .quotes-header{
@@ -216,4 +202,34 @@ iframe{
 
 .audio-container-fluid{
     background: rgba(255, 79, 79, 0.75) no-repeat center center fixed;
+}
+/*-----------------------------------Gallery------------------------------------*/
+.jumbotron-gallery-header{
+    color: white;
+    font-size: 4rem;
+}
+
+.gallery-container-fluid{
+    height: 90vh;
+    width: 100%;
+    background: url("../images/ark-royal-large-cropped.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+   }
+
+.image-container-fluid{
+    padding: 0px;
+}
+   .image-container ul{
+    padding-left: 0rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    list-style-type: none;
 }
