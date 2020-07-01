@@ -170,11 +170,6 @@ footer {
     padding-bottom: 3rem;
 }
 
-.listen{
-    margin-top: 0rem;
-    color: white;
-}
-
 .audio-players{
     font-size: 10px;
     color: rgba(255, 79, 79, 0.75);
@@ -202,6 +197,13 @@ iframe{
 
 .audio-container-fluid{
     background: rgba(255, 79, 79, 0.75) no-repeat center center fixed;
+    margin-right: 0px;
+}
+
+
+.listen{
+    margin-top: 0rem;
+    color: white;
 }
 
 .watch,
@@ -209,6 +211,8 @@ iframe{
     margin: 0px;
     padding: 0px;
 }
+
+
 /*-----------------------------------Gallery------------------------------------*/
 
 .jumbotron-gallery-header{
@@ -261,4 +265,15 @@ iframe{
     .gallery-container-fluid {
         display: none;
     }
+}
+
+/*--------------------Contact-------------------*/
+
+.contact-us-container-fluid{
+    padding: 10rem;
+}
+
+.contact-header{
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
 }
