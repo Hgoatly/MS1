@@ -107,7 +107,7 @@ p{
     padding-bottom: 3rem;
 }
 
-/* Footer */
+/* Footer */ 
 
 footer {
     background-color: #212529;
@@ -270,10 +270,31 @@ iframe{
 /*--------------------Contact-------------------*/
 
 .contact-us-container-fluid{
-    padding: 10rem;
+    padding: 6rem;
 }
 
 .contact-header{
     font-family: 'Bebas Neue', cursive;
     text-align: justify;
+    color: rgba(255, 79, 79, 0.75);
+    padding-top: 1.5rem;
+}
+
+.contact-paragraph{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact-details {
+    padding-bottom: 1.5rem;
+}
+
+.email {
+    padding-bottom: 1.5rem;
+}
+
+.fa-envelope,
+.fa-phone {
+    font-size: 2rem;
 }
