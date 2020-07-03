@@ -11,11 +11,9 @@ Bombay Groove site. One that better represents our services and brand, and is mu
 
 ### User Stories
 
-* User Story 1: I am the business owner, and want to have all of my promotional material in one place,
- so that it's easy for potential clients to access.
-* User Story 2: I am a potential client, and want to find out about what you do, and what you charge 
+* User Story 1: I am a potential client, and want to find out about what you do, and what you charge 
   so that I can decide whether to book you for my event.
-* User Story 3: I am a potential client, and I would like to see a video of you performing, so that I can 
+* User Story 2: I am a potential client, and I would like to see a video of you performing, so that I can 
   determine whether you are the right kind of entertainment for my event. 
 * User Story 3: I am a potential client and I want to see whether you play my favourite song
   so that I can book you for my event.
@@ -30,3 +28,8 @@ Bombay Groove site. One that better represents our services and brand, and is mu
   point of view. My wireframes are here:    
 
   /assets/Bombay_Groove_Desktop_Wireframes.pdf /assets/Bombay_Groove_Mobile_Wireframes.pdf
+
+  ## Site Owner's Goal.
+
+  ### *I am the business owner, and want to have all of my promotional material in one place,
+       so that it's easy for potential clients to access, and make a booking.
