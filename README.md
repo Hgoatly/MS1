@@ -31,5 +31,5 @@ Bombay Groove site. One that better represents our services and brand, and is mu
 
   ## Site Owner's Goal.
 
-  ### *I am the business owner, and want to have all of my promotional material in one place,
-       so that it's easy for potential clients to access, and make a booking.
+ *I am the business owner, and want to have all of my promotional material in one place,
+  so that it's easy for potential clients to access, and make a booking.

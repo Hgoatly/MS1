@@ -214,7 +214,20 @@ iframe{
     padding: 0px;
 }
 
+/*--------------------------------Repertoire-----------------------------------*/
 
+.song-list-header{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: rgba(255, 79, 79, 0.75);
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.song-list{
+    text-align: justify;
+    text-decoration: none;
+}
 /*-----------------------------------Gallery------------------------------------*/
 
 .jumbotron-gallery-header{
@@ -300,3 +313,4 @@ iframe{
 .fa-phone {
     font-size: 2rem;
 }
+
