@@ -244,6 +244,21 @@ iframe{
 }
 
 /*--------------------------------Repertoire-----------------------------------*/
+.repertoire-container-fluid{
+    padding: 6rem;
+}
+.repertoire-header{
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    color: rgba(255, 79, 79, 0.75);
+    padding-top: 1.5rem;
+}
+
+.repertoire-paragraph{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
 
 .song-list-header{
     font-family: 'Bebas Neue', cursive;
@@ -256,6 +271,24 @@ iframe{
 .song-list{
     text-align: justify;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 991px){
+    .repertoire-header{ 
+        padding-top: 8rem;
+    }
+    .classical{
+        padding-bottom: 7.4rem;
+    }
+    .phone-number{
+        padding-bottom: 6rem;
+    }
+} 
+
+@media only screen and (max-width: 600px){
+    .classical{
+        padding-bottom:1.5rem;
+    }
 }
 /*-----------------------------------Gallery------------------------------------*/
 
@@ -343,3 +376,23 @@ iframe{
     font-size: 2rem;
 }
 
+@media only screen and (max-width:991px){
+    .contact-header{
+        padding-top: 12rem;
+    }
+    .phone{
+        padding-bottom: 7.8rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .contact-header{
+        padding-top: 1.5rem;        
+    }
+    .phone{
+        padding-bottom: 0rem;
+    }
+    .phone-number{
+        padding-bottom: 0rem;
+    }
+}
