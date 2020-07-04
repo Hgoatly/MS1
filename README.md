@@ -25,9 +25,9 @@ Bombay Groove site. One that better represents our services and brand, and is mu
   I created some wireframes in response to the above User Stories. After creating the 1st site map, 
   I realised that the scope of the project was too big, and didn't really respond to the user Stories 
   in a conscise manner with good UX. So I then created 'Site Map 2', which is much better from a UX 
-  point of view. My wireframes are here:    
+  point of view. My wireframes are [here]:    
 
-  /assets/Bombay_Groove_Desktop_Wireframes.pdf /assets/Bombay_Groove_Mobile_Wireframes.pdf
+  (https://github.com/hgoatly/workspace/MS1/Bombay_Groove_Desktop_Wireframes.pdf) [/assets/Bombay_Groove_Mobile_Wireframes.pdf]
 
   ## Site Owner's Goal.
 

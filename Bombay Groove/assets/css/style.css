@@ -68,11 +68,25 @@ p{
 }
 /* About Us */
 
-.about-us-header{
+.about-us-header,
+.tablet-and-mobile-header{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
 }
 
+.tablet-and-mobile-image{
+    padding-top: 3.25rem;
+}
+.tablet-and-mobile-header{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.tablet-and-mobile-subheader{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
 .about-us p {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -144,8 +158,23 @@ footer {
     .quotes-header{
         padding-top: 0;
     }
+.tablet-and-mobile-subheader{
+    display: none;
+}    
 }
 
+@media screen and (max-width:991px){
+ .callout-container-fluid{
+     display: none;
+ }
+ .about-us-container{
+     padding-top: 0rem;
+ }
+ .about-us{
+     padding-top: 1.5rem;
+ }
+}
+   
 /*--------------------------------------Watch/Listen------------------------------------*/
 
 
@@ -163,7 +192,7 @@ footer {
     padding: 3rem 3rem 0 3rem;  
     margin-top: 3rem;
     font-size: 4rem;
-    color: rgba(255, 79, 79, 0.75);
+    color:black;
 }
 
 .watch-listen-container-fluid{
@@ -268,7 +297,7 @@ iframe{
     background: rgba(255, 79, 79, 0.75);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 991px) {
     .image-selection { 
         background: white;
     }
