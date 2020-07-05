@@ -153,7 +153,7 @@ footer {
     background: white;
 }
 
-@media screen and (max-width:600px){
+@media only screen and (max-width:600px){
     .about-us-header,
     .quotes-header{
         padding-top: 0;
@@ -163,7 +163,7 @@ footer {
 }    
 }
 
-@media screen and (max-width:991px){
+@media only screen and (max-width:991px){
  .callout-container-fluid{
      display: none;
  }
@@ -246,6 +246,12 @@ iframe{
 iframe{
     border:none;
  }
+
+@media only screen and (max-width: 991px){
+    .audio-iframe{
+        width: 100%;
+    }
+}
 
 /*--------------------------------Repertoire-----------------------------------*/
 .repertoire-container-fluid{
