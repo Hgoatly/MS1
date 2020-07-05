@@ -243,6 +243,10 @@ iframe{
     padding: 0px;
 }
 
+iframe{
+    border:none;
+ }
+
 /*--------------------------------Repertoire-----------------------------------*/
 .repertoire-container-fluid{
     padding: 6rem;
