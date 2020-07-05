@@ -124,8 +124,8 @@ p{
 /* Footer */ 
 
 footer {
-    background-color: #212529;
-    color: #343a40;
+    background: #343a40; 
+    color: #212529;
     font-family: 'Bebas Neue', cursive;
     min-height: 50px; 
 }
@@ -148,8 +148,8 @@ footer {
     border-radius: 50%;
     line-height:4px;
     text-align: center;
-    background-color: #212529;
-    color: #343a40;
+    background-color: #343a40;
+    color: #212529;
     background: white;
 }
 
