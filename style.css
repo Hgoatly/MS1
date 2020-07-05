@@ -125,7 +125,7 @@ p{
 
 footer {
     background-color: #212529;
-    color: white;
+    color: #343a40;
     font-family: 'Bebas Neue', cursive;
     min-height: 50px; 
 }
@@ -148,8 +148,8 @@ footer {
     border-radius: 50%;
     line-height:4px;
     text-align: center;
-   /* text-justify: center; */
-    color: #212529;
+    background-color: #212529;
+    color: #343a40;
     background: white;
 }
 
