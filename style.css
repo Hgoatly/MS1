@@ -158,9 +158,12 @@ footer {
     .quotes-header{
         padding-top: 0;
     }
-.tablet-and-mobile-subheader{
+    .tablet-and-mobile-subheader{
     display: none;
 }    
+    .about-us-mobile{ 
+        padding-top: 3rem;
+    }
 }
 
 @media only screen and (max-width:991px){
@@ -298,6 +301,9 @@ iframe{
 @media only screen and (max-width: 600px){
     .classical{
         padding-bottom:1.5rem;
+    }
+    .repertoire-header{
+        padding-top: 4rem;
     }
 }
 /*-----------------------------------Gallery------------------------------------*/
