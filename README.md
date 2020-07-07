@@ -109,6 +109,8 @@ would like us to play more easily.
 * Gitpod was used throughout as a development environment. https://gitpod.io/ and files were pushed to, and stored on
   Github for version control. https://github.com
 * Balsamiq was used to create wireframes for the project. https://balsamiq.com/
+* YouTube was used to embed a video. https://www.youtube.com/
+* SoundCloud was used to embed audio players. https://soundcloud.com/
 
 ## Testing.
 
@@ -116,10 +118,83 @@ All site pages, and the css stylesheet were inputted into the w3 code validators
 
 I undertook the following tests on my site.
 
+### Sitewide Features.
+
 1. Navbar.
     * Click on each link on the navbar, and make sure they all direct the user to the correct page.
     * Click on the email address in the top right hand corner, and check it directs the user to their email client.
     * Repeat the above steps for all pages.
 
-2. 
+2. Footer and Social Media Links.
+    * Check that the Footer and Social Media icons are well placed on all pages, and on all devices. 
+    * Check that all Social Media icons link to the relevant sites.
 
+#### Landing Page.
+
+1. Hero Image and Jumbotron.
+    * Check that the image is responsive, and looks good on all devices. 
+
+2.  * 'Who we Are', 'What We Do', 'Prices' and 'Quotes'. Check for typos, and check that the text layout is visually appealing 
+       on all devices.
+
+#### Watch/Listen Page.
+
+1. Embedded Media.
+    * Click on the embedded YouTube video and SoundCloud audio tracks to make sure they work.
+
+#### Repertoire Page.
+
+1. Playlists.
+    * Click on the playlist headers and check that they open a PDF in a new window.
+
+#### Gallery Page.
+
+1. Images.
+    * Check that all images look as expected on all devices.
+
+#### Contact Page.
+
+1. Contact Information.
+    * Check that the envelope icon links to the email client, and that the phone icon is able to dial the number.
+
+
+#### Responsive Design.
+
+* I designed my website to be responsive. For tablet-sized screens in portrait mode, I changed the layout of the landing page from having 
+a jumbotron overlaying the hero image to having the title of the band and the subtitle underneath, as I felt that 
+this suited the screen size better. I also changed from a three column layout to a two column layout. 
+
+* On mobile sized screens I used the same hero image layout as on the tablet, but had all text elements in one column 
+instead. On the smallest screens I reduced the size of some of the text on the Contact page so that it fitted.
+
+* For the gallery page, I also removed the jumbotron for tablet and mobile screen sizes for aesthetic reasons.
+
+
+
+#### Bugs.
+
+* Whilst making my website responsive, I discovered that despite being wider than my laptop screen, an iPad Pro in 
+landscape mode would not show the hero image with jumbotron on the landing page or the gallery page without cutting
+off some of the picture on the left and right hand sides, whereas my laptop displayed it in full. 
+I hope to fix this bug in future.
+
+
+### Deployment.
+
+I deployed my site to GitHub pages. The code can be run locally through GitPod.
+
+### Credits.
+
+#### Content.
+
+* The Navbar was copied from Bootstrap https://getbootstrap.com/docs/4.5/components/navbar/
+* The code for the hero image was copied from https://www.css.tricks.com/perfect-full-page-background-image
+* The code for the jumbotron was copied from the Code Institute 'Whiskey Drop' walkthough.
+
+#### Media.
+
+* All photos, video and audio are owned by me.
+
+#### Ackonwledgements.
+
+* I took inspiration for this project from my need to generate work for my own business. 

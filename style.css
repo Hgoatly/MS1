@@ -202,6 +202,8 @@ footer {
     padding-bottom: 3rem;
 }
 
+/*-----------------This Section is copied from SoundCloud.com----------------*/
+
 .audio-players{
     font-size: 10px;
     color: rgba(255, 79, 79, 0.75);
@@ -214,6 +216,7 @@ footer {
     "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
     font-weight: 100;    
     }
+/*--------------------End of Copied Section--------------------*/
 
 iframe{
     padding-left: 0rem;
@@ -363,6 +366,8 @@ iframe{
     position: relative;
 }
 
+/*-------------This Section was copied from css.tricks.com/perfect-full-page-background-image---------------*/
+
 .gallery-container-fluid{
     height: 90vh;
     width: 100%;
@@ -378,6 +383,8 @@ iframe{
     position: relative;
     margin-bottom: 3rem;
    }
+
+/*--------------End of Copied section---------------*/
 
 .image-container-fluid {
     padding: 0px;
@@ -396,6 +403,21 @@ iframe{
 }
 
 @media only screen and (max-width: 991px) {
+    .image-selection { 
+        background: white;
+    }
+    .image-container-fluid ul {  
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    list-style-type: none;
+    }
+    .gallery-container-fluid {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
     .image-selection { 
         background: white;
     }
@@ -465,10 +487,12 @@ iframe{
         padding-bottom: 0rem;
     }
 }
-@media only screen and (min-height: 700px){
-   /* .contact-us-container-fluid{
-        height: 93vh;
-    } */  
+@media only screen and (max-width: 320px){
+    .email,
+    .phone{
+        font-size: 12px;
+
+    }
 }
 @media only screen and (min-height: 1366px){
     .contact-us-container-fluid{
