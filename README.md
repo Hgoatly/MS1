@@ -97,3 +97,29 @@ In future, I would like to add a contact form, that sends an email directly to t
 I would also like to add a searchable database of songs, so that potential clients can choose what they 
 would like us to play more easily. 
 
+
+## Technologies Used.
+
+* HTML5 was used to provide the structure of the site.
+* CSS3 was used to style the site.
+* The Bootstrap 4.5 framework was used to create a responsive site structure for mobile, tablet and desktop devices. https://getbootstrap.com/
+* JS, Popper.js and JQuery were used through Bootstrap in order to provide additional style to the site.
+* Google Fonts was used to provide appropriate typography throught the site. https://fonts.google.com/
+* Font Awesome was used to provide social media icons. https://fontawesome.com/start
+* Gitpod was used throughout as a development environment. https://gitpod.io/ and files were pushed to, and stored on
+  Github for version control. https://github.com
+* Balsamiq was used to create wireframes for the project. https://balsamiq.com/
+
+## Testing.
+
+All site pages, and the css stylesheet were inputted into the w3 code validators. They all passed with no errors.
+
+I undertook the following tests on my site.
+
+1. Navbar.
+    * Click on each link on the navbar, and make sure they all direct the user to the correct page.
+    * Click on the email address in the top right hand corner, and check it directs the user to their email client.
+    * Repeat the above steps for all pages.
+
+2. 
+
