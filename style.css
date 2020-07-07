@@ -142,7 +142,7 @@ footer {
 }
 
 .social-links li {
-    margin: 15px;
+    margin: 5px;
 }
 
 .social-links li a i {
@@ -154,6 +154,11 @@ footer {
     background-color: #343a40;
     color: white;
 }
+
+.social-links li :hover{
+    color: rgba(255, 79, 79, 0.75);
+}
+
 
 @media only screen and (max-width:600px){
     .about-us-header,
@@ -398,6 +403,7 @@ iframe{
 .fa-phone {
     font-size: 2rem;
 }
+
 
 @media only screen and (max-width:991px){
     .contact-header{
