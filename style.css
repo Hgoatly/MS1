@@ -187,13 +187,6 @@ footer {
    
 /*--------------------------------------Watch/Listen------------------------------------*/
 
-
-/* showreel */
-
-.showreel{
-    
-}
-
 /* Watch-Listen */
 
 .watch-listen-header{
@@ -269,9 +262,15 @@ iframe{
     }
 }
 /*--------------------------------Repertoire-----------------------------------*/
+
+.repertoire-page{
+    height: 100vh;
+}
+
 .repertoire-container-fluid{
     padding: 6rem;
 }
+
 .repertoire-header{
     font-family: 'Bebas Neue', cursive;
     text-align: justify;
@@ -303,10 +302,10 @@ iframe{
         padding-top: 6.01rem;
     }
     .classical{
-        padding-bottom: 7.01rem;
+        padding-bottom: 8rem;
     }
     .phone-number{
-        padding-bottom: 6rem;
+        padding-bottom: 6.1rem;
     }
 } 
 
@@ -317,7 +316,45 @@ iframe{
     .repertoire-header{
         padding-top: 4rem;
     }
+    .repertoire-page{
+        height: 100vh;
+    }
 }
+@media only screen and (min-height: 1366px){
+    .repertoire-container-fluid{
+        height: 93vh;
+    }
+    .repertoire-header{
+        font-size: 4rem;
+        padding-top: 16rem;
+    }
+    .repertoire-paragraph{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        font-size: 20px;
+    }
+    .repertoire h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-height: 1024px){
+    .repertoire-container-fluid{
+        height: 93vh;
+    }
+    .repertoire-header{
+        font-size: 4rem;
+        padding-top: 12rem;
+    }
+    .repertoire-paragraph{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        font-size: 20px;
+    }
+    .repertoire h3{
+        font-size: 2rem;
+    }
+}
+
 /*-----------------------------------Gallery------------------------------------*/
 
 .jumbotron-gallery-header{
@@ -415,13 +452,61 @@ iframe{
 }
 
 @media only screen and (max-width: 600px){
+    .contact-us-container-fluid{
+        height: 90vh;
+    }
     .contact-header{
-        padding-top: 1.5rem;        
+        padding-top: 2rem;        
     }
     .phone{
         padding-bottom: 0rem;
     }
     .phone-number{
         padding-bottom: 0rem;
+    }
+}
+@media only screen and (min-height: 700px){
+   /* .contact-us-container-fluid{
+        height: 93vh;
+    } */  
+}
+@media only screen and (min-height: 1366px){
+    .contact-us-container-fluid{
+        height: 93vh;
+    }
+    .contact-header{
+        font-size: 4rem;
+        padding-top: 16rem;
+    }
+    .contact-paragraph{
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        font-size: 20px;
+    }
+    .email,
+    .phone-number{
+        font-size: 20px;
+    }
+    .fa-envelope,
+    .fa-phone{
+        padding-bottom: 3rem;
+    }
+}
+@media only screen and (min-height: 1024px){
+    .contact-us-container-fluid{
+        height: 93vh;
+    }
+    .contact-header{
+        font-size: 4rem;
+        padding-top: 12rem;
+    }
+    .contact-paragraph{
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        font-size: 20px;
+    }
+    .email,
+    .phone-number{
+        font-size: 20px;
     }
 }
