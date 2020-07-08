@@ -171,6 +171,9 @@ footer {
     .about-us-mobile{ 
         padding-top: 3rem;
     }
+    .quote{
+        padding-top: 1.5rem;
+    }
 }
 
 @media only screen and (max-width:991px){
@@ -185,6 +188,12 @@ footer {
  }
 }
    
+@media only screen and (max-width: 1024px){
+    .callout-container-fluid{
+        display: none;
+    }
+}
+
 /*--------------------------------------Watch/Listen------------------------------------*/
 
 /* Watch-Listen */
@@ -403,9 +412,6 @@ iframe{
 }
 
 @media only screen and (max-width: 991px) {
-    .image-selection { 
-        background: white;
-    }
     .image-container-fluid ul {  
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -416,11 +422,7 @@ iframe{
     }
 }
 
-
 @media only screen and (max-width: 1024px) {
-    .image-selection { 
-        background: white;
-    }
     .image-container-fluid ul {  
     margin-top: 0rem;
     margin-bottom: 0rem;
