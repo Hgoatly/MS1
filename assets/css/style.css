@@ -187,13 +187,12 @@ footer {
      padding-top: 1.5rem;
  }
 }
-   
+   /*
 @media only screen and (max-width: 1024px){
     .callout-container-fluid{
         display: none;
     }
-}
-
+} */
 /*--------------------------------------Watch/Listen------------------------------------*/
 
 /* Watch-Listen */
