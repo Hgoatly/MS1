@@ -13,7 +13,7 @@ Bombay Groove site. One that better represents our services and brand, and is mu
 
 * User Story 1: I am a potential client, and want to find out about who you are, what you do, and what you charge 
   so that I can decide whether to book you for my event.
-  User Story 2: I am a potential client, and I want to see some quotes from previous clients, so that I can be 
+* User Story 2: I am a potential client, and I want to see some quotes from previous clients, so that I can be 
   reassured about the quality of your service.
 * User Story 3: I am a potential client, and I would like to see a video and hear some audio of you performing, 
   so that I can determine whether you are the right kind of entertainment for my event. 
@@ -94,9 +94,17 @@ I designed the individual pages based on my user stories, with good UX in mind.
 
 ### Features Left to Implement.
 
-In future, I would like to add a contact form, that sends an email directly to the band's email address.
+Usually if I were to update my website, I would make sure that I had plenty of new photos, videos and
+audio tracks to add. However, as we are currently unable to meet due to the lockdown in the UK, this 
+has not been possible. I would like to add this material as soon as is possible.
 I would also like to add a searchable database of songs, so that potential clients can choose what they 
 would like us to play more easily. 
+
+### Features Chosen Not to Implement.
+
+I chose not to add a contact form on my site. This was because I believe that it would be negative UX
+to have one in the case of this business. Filling in a form with several fields would take longer than 
+clicking an icon and writing the ssame information in an email.
 
 
 ## Technologies Used.
@@ -112,6 +120,7 @@ would like us to play more easily.
 * Balsamiq was used to create wireframes for the project. https://balsamiq.com/
 * YouTube was used to embed a video. https://www.youtube.com/
 * SoundCloud was used to embed audio players. https://soundcloud.com/
+* Favicon.io was used to generate a favicon. https://favicon.io/favicon-generator/
 
 ## Design.
 
@@ -132,8 +141,10 @@ the links - in order to match the jumbotron text colour.
 * I chose to change the background colour of some of the sections, in order to make a clear distinction between them.
 For this I used the colout picker tool on 'dev tools' in order to find the one that matched the colours in the landing 
 page hero image the best. I chose a pink colour: #ff4f4f, with an opacity of 0.75.
+* I chose white lettering on a pink background for the favicon as this tied in with the general colour
+scheme of my site.
 
-### typography.
+### Typography.
 
 * Throughout the site I chose the 'Bebas Neue' font, with a fallback of cursive for the headers, 
 and 'Roboto', with a fallback of sans-serif for the content. 
@@ -183,7 +194,6 @@ I undertook the following tests on my site.
 1. Contact Information.
     * Check that the envelope icon links to the email client, and that the phone icon is able to dial the number.
 
-
 #### Responsive Design.
 
 * I designed my website to be responsive. For tablet-sized screens in portrait mode, I changed the layout of the landing page from having 
@@ -194,7 +204,6 @@ this suited the screen size better. I also changed from a three column layout to
 instead. On the smallest screens I reduced the size of some of the text on the Contact page so that it fitted.
 
 * For the gallery page, I also removed the jumbotron for tablet and mobile screen sizes for aesthetic reasons.
-
 
 
 #### Bugs.
@@ -216,11 +225,19 @@ I deployed my site to GitHub pages. The code can be run locally through GitPod.
 * The Navbar was copied from Bootstrap https://getbootstrap.com/docs/4.5/components/navbar/
 * The code for the hero image was copied from https://www.css.tricks.com/perfect-full-page-background-image
 * The code for the jumbotron was copied from the Code Institute 'Whiskey Drop' walkthough.
+* The code for inserting the favicon was copied from https://favicon.io/favicon-generator/
+* The code used to embedd the YouTube video was copied from http://youtube.com
+* The code used to embedd the YouTube video was copied from http://SoundCloud.com
 
 #### Media.
 
 * All photos, video and audio are owned by me.
 
-#### Ackonwledgements.
+#### Acknonwledgements.
 
-* I took inspiration for this project from my need to generate work for my own business. 
+* My inspiration for this project was drawn from my current situation. In a few short months I have 
+gone from being an extremely busy professional musician, to being locked down and banned from working 
+as a musician, to becoming a student again. Luckily I have found out that I am also extremely passionate 
+about coding, so hopefully I have some more promising job opportunities ahead of me. My colleagues in 
+Bombay Groove are not as fortunate, so I decided to design a new website, so they're ready to 'hit the 
+ground running' again when the restrictions on performing are lifted.
