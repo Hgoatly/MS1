@@ -26,7 +26,7 @@ p{
 .callout-container-fluid{
     height: 90vh;
     width: 100%;
-    background: url("assets/images/bombay-groove-color.JPG") no-repeat center center fixed; 
+    background: url("../assets/images/bombay-groove-color.JPG") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -187,12 +187,12 @@ footer {
      padding-top: 1.5rem;
  }
 }
-   /*
+
 @media only screen and (max-width: 1024px){
     .callout-container-fluid{
         display: none;
     }
-} */
+} 
 /*--------------------------------------Watch/Listen------------------------------------*/
 
 /* Watch-Listen */
@@ -379,7 +379,7 @@ iframe{
 .gallery-container-fluid{
     height: 90vh;
     width: 100%;
-    background: url("assets/images/ark-royal-large-cropped.jpg") no-repeat center center fixed; 
+    background: url("../assets/images/ark-royal-large-cropped.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
