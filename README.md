@@ -40,7 +40,7 @@ Bombay Groove site. One that better represents our services and brand, and is mu
   in a conscise manner with good UX. So I then created 'Site Map 2', which is much better from a UX 
   point of view. My wireframes are [here]:    
 
-  (https://github.com/Hgoatly/MS1/bombay_groove_mobile_wireframes.pdf) (https://github.com/Hgoatly/MS1/bombay_groove_desktop_wireframes.pdf)
+  (https://github.com/Hgoatly/MS1/blob/master/bombay_groove_desktop_wireframes.pdf) (https://github.com/Hgoatly/MS1/bombay_groove_desktop_wireframes.pdf)
   (https://github.com/Hgoatly/MS1/bombay_groove_tablet_wireframes.pdf) 
 
 ## Features.
