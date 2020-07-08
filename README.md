@@ -40,7 +40,8 @@ Bombay Groove site. One that better represents our services and brand, and is mu
   in a conscise manner with good UX. So I then created 'Site Map 2', which is much better from a UX 
   point of view. My wireframes are [here]:    
 
-  (MS1/bombay_groove_desktop_wireframes_new.pdf) [/assets/Bombay_Groove_Mobile_Wireframes.pdf]
+  (https://github.com/Hgoatly/MS1/bombay_groove_mobile_wireframes.pdf) (https://github.com/Hgoatly/MS1/bombay_groove_desktop_wireframes.pdf)
+  (https://github.com/Hgoatly/MS1/bombay_groove_tablet_wireframes.pdf) 
 
 ## Features.
 
@@ -111,6 +112,31 @@ would like us to play more easily.
 * Balsamiq was used to create wireframes for the project. https://balsamiq.com/
 * YouTube was used to embed a video. https://www.youtube.com/
 * SoundCloud was used to embed audio players. https://soundcloud.com/
+
+## Design.
+
+### Imagery. 
+
+* I deliberately chose striking, colourful images of the band that immediately gives the user an idea of what they 
+    can expect if they book us for an event. On the landing page, I deliberately chose one of us performing at a
+    wedding.
+* The gallery page shows a mixture of us performing and not performing, in a mixture of outfits - in order to show 
+    various costume oprions that we offer.
+
+### Colour Scheme.
+
+* I chose white as the colour for the text on the jumbotron, as I felt that this made an excellent contrast with the 
+image. I tried some other colours, but felt that white was the most striking, and looked the best.
+* As I had chosen white for the jumbotron, I chose to have a dark navbar and footer, so that I could use white for 
+the links - in order to match the jumbotron text colour.
+* I chose to change the background colour of some of the sections, in order to make a clear distinction between them.
+For this I used the colout picker tool on 'dev tools' in order to find the one that matched the colours in the landing 
+page hero image the best. I chose a pink colour: #ff4f4f, with an opacity of 0.75.
+
+### typography.
+
+* Throughout the site I chose the 'Bebas Neue' font, with a fallback of cursive for the headers, 
+and 'Roboto', with a fallback of sans-serif for the content. 
 
 ## Testing.
 
