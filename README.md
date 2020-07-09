@@ -80,17 +80,17 @@ I designed the individual pages based on my user stories, with good UX in mind.
 * Feature 3: I have changed the background colour of the 'Listen' section to match that of the 'Quotes' section on the Landing Page, in order to provide
   continuity between the pages, and to create a clear separation between the 'Watch' and 'Listen' sections in order to maintain good UX.
 
-#### Page 3: 
+#### Page 3: Repertoire.
 
 * Feature 1: Clickable headers, which each open PDF repertoire lists in a new window. One for each style of music we perform.
   This allows user 4 to easily find out whether thier favourite song is on the list, without navigating away from the page.  
 
-#### Page 4:
+#### Page 4: Gallery.
 
 * Feature 1: Photos of the band performing at events, and also some group shots at venues. This allows user 6 to see 
   what we look like, and visualise us performing at their events.
 
-#### Page 5:
+#### Page 5: Contact.
 
 * Feature 1: Clearly displayed contact details (email address and phone number) with clickable phone and envelope icons.
   This allows all users to be able to contact us easily in order to make a booking or collaborate. 
@@ -245,7 +245,7 @@ I deployed my site to GitHub pages. The code can be run locally through GitPod.
 
 * All photos, video and audio are owned by me.
 
-#### Acknonwledgements.
+#### Acknowledgements.
 
 * My inspiration for this project was drawn from my current situation. In a few short months I have 
 gone from being an extremely busy professional musician, to being locked down and banned from working 

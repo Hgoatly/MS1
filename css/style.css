@@ -376,7 +376,7 @@ iframe{
 .gallery-container-fluid{
     height: 90vh;
     width: 100%;
-    background: url("../assets/images/ark-royal-large-cropped.jpg") no-repeat center center fixed; 
+    background: url("../assets/images/ark-royal-large-cropped-compressed.jpg") no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
