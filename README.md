@@ -8,6 +8,7 @@ modern site. For example, it lacks responsive design. I would like to use this p
 Bombay Groove site. One that better represents our services and brand, and is much more up-to-date in terms of UI and UX.
 
 ## UX
+---
 
 ### User Stories
 
@@ -26,7 +27,8 @@ Bombay Groove site. One that better represents our services and brand, and is mu
 * User Story 7: I am a visitor to your site, and I want to be able to find my way around your site easily,
   so that I can find the information that I need quickly. 
 
-## Site Owner's Goal.
+### Site Owner's Goal.
+
 
   I am the business owner, and want to have all of my promotional material in one place,
   so that it's easy for potential clients to access, and make a booking. I also want to make sure that our name is 
@@ -34,7 +36,7 @@ Bombay Groove site. One that better represents our services and brand, and is mu
   users can be directed to them in order to increase our following.
 
 ## Wireframes.
-
+---
   I created some wireframes in response to the above User Stories. After creating the 1st site map, 
   I realised that the scope of the project was too big, and didn't really respond to the user Stories 
   in a conscise manner with good UX. So I then created 'Site Map 2', which is much better from a UX 
@@ -44,7 +46,7 @@ Bombay Groove site. One that better represents our services and brand, and is mu
   (https://github.com/Hgoatly/MS1/bombay_groove_tablet_wireframes.pdf) 
 
 ## Features.
-
+---
   After reviewing my user stories, site owner's goal and wireframes, I decided to implement the following features throughout the site.
 
 ### Sitewide features.
@@ -104,11 +106,22 @@ would like us to play more easily.
 
 I chose not to add a contact form on my site. This was because I believe that it would be negative UX
 to have one in the case of this business. Filling in a form with several fields would take longer than 
-clicking an icon and writing the ssame information in an email.
+clicking an icon and writing the same information in an email.
+
+### Aditional Comments.
+
+Lots of bands rely mainly on images and audio on their websites, rather than text, as their sites are 
+designed for their fans who already have a pretty good idea of what they do. Bombay Groove is a 
+function band. My site is there to sell a service to people who may have never heard of the band, 
+who may not know what a string quartet is, and may not have imagined that Bollywood music could be 
+performed on what are traditionally western instruments. They are interested in booking us for a 
+one-off event, and like to be able to find out all of the information they need before they contact us.
+Therefore, I feel that it's crucial to have all of the text that we have on the site in order to successfully 
+convey our servive, and secure bookings. 
 
 
 ## Technologies Used.
-
+---
 * HTML5 was used to provide the structure of the site.
 * CSS3 was used to style the site.
 * The Bootstrap 4.5 framework was used to create a responsive site structure for mobile, tablet and desktop devices. https://getbootstrap.com/
@@ -123,7 +136,7 @@ clicking an icon and writing the ssame information in an email.
 * Favicon.io was used to generate a favicon. https://favicon.io/favicon-generator/
 
 ## Design.
-
+---
 ### Imagery. 
 
 * I deliberately chose striking, colourful images of the band that immediately gives the user an idea of what they 
@@ -150,9 +163,9 @@ scheme of my site.
 and 'Roboto', with a fallback of sans-serif for the content. 
 
 ## Testing.
-
+---
 All site pages, and the css stylesheet were inputted into the w3 code validators. They all passed with no errors.
-
+All pages were tested in Firefox, Chrome, Opera, Microsoft Edge and IOS. They all worked well in all of these browsers.
 I undertook the following tests on my site.
 
 ### Sitewide Features.
@@ -215,11 +228,11 @@ I hope to fix this bug in future.
 
 
 ### Deployment.
-
+---
 I deployed my site to GitHub pages. The code can be run locally through GitPod.
 
 ### Credits.
-
+---
 #### Content.
 
 * The Navbar was copied from Bootstrap https://getbootstrap.com/docs/4.5/components/navbar/
