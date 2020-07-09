@@ -195,8 +195,6 @@ footer {
 } 
 /*--------------------------------------Watch/Listen------------------------------------*/
 
-/* Watch-Listen */
-
 .watch-listen-header{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
@@ -235,7 +233,6 @@ iframe{
     padding-top: 0rem;
     margin-top: 0rem;
     list-style-type: none;
-
 }
 
 .audio-container-fluid{
@@ -463,7 +460,6 @@ iframe{
 .fa-phone {
     font-size: 2rem;
 }
-
 
 @media only screen and (max-width:991px){
     .contact-header{

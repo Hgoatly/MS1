@@ -96,7 +96,7 @@ I designed the individual pages based on my user stories, with good UX in mind.
 
 ### Features Left to Implement.
 
-Usually if I were to update my website, I would make sure that I had plenty of new photos, videos and
+* Usually if I were to update my website, I would make sure that I had plenty of new photos, videos and
 audio tracks to add. However, as we are currently unable to meet due to the lockdown in the UK, this 
 has not been possible. I would like to add this material as soon as is possible.
 I would also like to add a searchable database of songs, so that potential clients can choose what they 
@@ -104,13 +104,13 @@ would like us to play more easily.
 
 ### Features Chosen Not to Implement.
 
-I chose not to add a contact form on my site. This was because I believe that it would be negative UX
+* I chose not to add a contact form on my site. This was because I believe that it would be negative UX
 to have one in the case of this business. Filling in a form with several fields would take longer than 
 clicking an icon and writing the same information in an email.
 
 ### Aditional Comments.
 
-Lots of bands rely mainly on images and audio on their websites, rather than text, as their sites are 
+* Lots of bands rely mainly on images and audio on their websites, rather than text, as their sites are 
 designed for their fans who already have a pretty good idea of what they do. Bombay Groove is a 
 function band. My site is there to sell a service to people who may have never heard of the band, 
 who may not know what a string quartet is, and may not have imagined that Bollywood music could be 
@@ -151,8 +151,9 @@ convey our servive, and secure bookings.
 image. I tried some other colours, but felt that white was the most striking, and looked the best.
 * As I had chosen white for the jumbotron, I chose to have a dark navbar and footer, so that I could use white for 
 the links - in order to match the jumbotron text colour.
+* I chose white as the main background colour, in order to match the colour of the text on the navbar, and of the jumbotron.
 * I chose to change the background colour of some of the sections, in order to make a clear distinction between them.
-For this I used the colout picker tool on 'dev tools' in order to find the one that matched the colours in the landing 
+For this I used the colour picker tool on 'dev tools' in order to find the one that matched the colours in the landing 
 page hero image the best. I chose a pink colour: #ff4f4f, with an opacity of 0.75.
 * I chose white lettering on a pink background for the favicon as this tied in with the general colour
 scheme of my site.
@@ -164,9 +165,10 @@ and 'Roboto', with a fallback of sans-serif for the content.
 
 ## Testing.
 ---
-All site pages, and the css stylesheet were inputted into the w3 code validators. They all passed with no errors.
-All pages were tested in Firefox, Chrome, Opera, Microsoft Edge and IOS. They all worked well in all of these browsers.
-I undertook the following tests on my site.
+* All site pages, and the css stylesheet were inputted into the w3 code validators. They all passed with no errors.
+* All pages were tested in Firefox, Chrome, Opera, Microsoft Edge and IOS. They all worked well in all of these browsers.
+
+I undertook the following additional tests on my site.
 
 ### Sitewide Features.
 
@@ -207,6 +209,11 @@ I undertook the following tests on my site.
 1. Contact Information.
     * Check that the envelope icon links to the email client, and that the phone icon is able to dial the number.
 
+### Bugs 
+---
+* I found that my responsive design didn't work quite as well as it should have initially. I therefore spent a lot of 
+time trying it out on different screen sizes, and creating appropriate media queries to fix this.
+
 #### Responsive Design.
 
 * I designed my website to be responsive. For tablet-sized screens in portrait mode, I changed the layout of the landing page from having 
@@ -218,15 +225,6 @@ instead. On the smallest screens I reduced the size of some of the text on the C
 
 * For the gallery page, I also removed the jumbotron for tablet and mobile screen sizes for aesthetic reasons.
 
-
-#### Bugs.
-
-* Whilst making my website responsive, I discovered that despite being wider than my laptop screen, an iPad Pro in 
-landscape mode would not show the hero image with jumbotron on the landing page or the gallery page without cutting
-off some of the picture on the left and right hand sides, whereas my laptop displayed it in full. 
-I hope to fix this bug in future.
-
-
 ### Deployment.
 ---
 I deployed my site to GitHub pages. The code can be run locally through GitPod.
@@ -237,7 +235,7 @@ I deployed my site to GitHub pages. The code can be run locally through GitPod.
 
 * The Navbar was copied from Bootstrap https://getbootstrap.com/docs/4.5/components/navbar/
 * The code for the hero image was copied from https://www.css.tricks.com/perfect-full-page-background-image
-* The code for the jumbotron was copied from the Code Institute 'Whiskey Drop' walkthough.
+* The code for the jumbotron was copied from the Code Institute 'Whiskey Drop' walkthough module.
 * The code for inserting the favicon was copied from https://favicon.io/favicon-generator/
 * The code used to embedd the YouTube video was copied from http://youtube.com
 * The code used to embedd the YouTube video was copied from http://SoundCloud.com
