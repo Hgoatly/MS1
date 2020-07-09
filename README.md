@@ -8,7 +8,7 @@ modern site. For example, it lacks responsive design. I would like to use this p
 Bombay Groove site. One that better represents our services and brand, and is much more up-to-date in terms of UI and UX.
 
 ## UX
----
+
 
 ### User Stories
 
@@ -29,14 +29,13 @@ Bombay Groove site. One that better represents our services and brand, and is mu
 
 ### Site Owner's Goal.
 
-
   I am the business owner, and want to have all of my promotional material in one place,
   so that it's easy for potential clients to access, and make a booking. I also want to make sure that our name is 
   clearly displayed, as well as our email address, and that there are links to our social media sites, so that 
   users can be directed to them in order to increase our following.
 
 ## Wireframes.
----
+
   I created some wireframes in response to the above User Stories. After creating the 1st site map, 
   I realised that the scope of the project was too big, and didn't really respond to the user Stories 
   in a conscise manner with good UX. So I then created 'Site Map 2', which is much better from a UX 
@@ -47,7 +46,7 @@ Bombay Groove site. One that better represents our services and brand, and is mu
   (https://github.com/Hgoatly/MS1/blob/master/assets/wireframes/bombay_groove_tablet_wireframes.pdf) 
 
 ## Features.
----
+
   After reviewing my user stories, site owner's goal and wireframes, I decided to implement the following features throughout the site.
 
 ### Sitewide features.
@@ -122,7 +121,7 @@ convey our servive, and secure bookings.
 
 
 ## Technologies Used.
----
+
 * HTML5 was used to provide the structure of the site.
 * CSS3 was used to style the site.
 * The Bootstrap 4.5 framework was used to create a responsive site structure for mobile, tablet and desktop devices. https://getbootstrap.com/
@@ -137,7 +136,7 @@ convey our servive, and secure bookings.
 * Favicon.io was used to generate a favicon. https://favicon.io/favicon-generator/
 
 ## Design.
----
+
 ### Imagery. 
 
 * I deliberately chose striking, colourful images of the band that immediately gives the user an idea of what they 
@@ -165,7 +164,7 @@ scheme of my site.
 and 'Roboto', with a fallback of sans-serif for the content. 
 
 ## Testing.
----
+
 * All site pages, and the css stylesheet were inputted into the w3 code validators. They all passed with no errors.
 * All pages were tested in Firefox, Chrome, Opera, Microsoft Edge and IOS. They all worked well in all of these browsers.
 
@@ -211,7 +210,7 @@ I undertook the following additional tests on my site.
     * Check that the envelope icon links to the email client, and that the phone icon is able to dial the number.
 
 ### Bugs 
----
+
 * I found that my responsive design didn't work quite as well as it should have initially. I therefore spent a lot of 
 time trying it out on different screen sizes, and creating appropriate media queries to fix this.
 
@@ -227,11 +226,11 @@ instead. On the smallest screens I reduced the size of some of the text on the C
 * For the gallery page, I also removed the jumbotron for tablet and mobile screen sizes for aesthetic reasons.
 
 ### Deployment.
----
+
 I deployed my site to GitHub pages. The code can be run locally through GitPod.
 
 ### Credits.
----
+
 #### Content.
 
 * The Navbar was copied from Bootstrap https://getbootstrap.com/docs/4.5/components/navbar/
