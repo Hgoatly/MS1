@@ -31,8 +31,8 @@ Bombay Groove site. One that better represents our services and brand, and is mu
 
   I am the business owner, and want to have all of my promotional material in one place,
   so that it's easy for potential clients to access, and make a booking. I also want to make sure that our name is 
-  clearly displayed, as well as our email address, and that there are links to our social media sites, so that 
-  users can be directed to them in order to increase our following.
+  clearly displayed, as well as our email address, in order to increase brand awareness, and that there are 
+  links to our social media sites so that users can be directed to them in order to increase our following.
 
 ## Wireframes.
 
@@ -235,7 +235,7 @@ I deployed my site to GitHub pages. The code can be run locally through GitPod.
 
 * The Navbar was copied from Bootstrap https://getbootstrap.com/docs/4.5/components/navbar/
 * The code for the hero image was copied from https://www.css.tricks.com/perfect-full-page-background-image
-* The code for the jumbotron was copied from the Code Institute 'Whiskey Drop' walkthough module.
+* The code for the jumbotron was copied from the Code Institute 'Whiskey Drop' walkthough tutorial.
 * The code for inserting the favicon was copied from https://favicon.io/favicon-generator/
 * The code used to embedd the YouTube video was copied from http://youtube.com
 * The code used to embedd the YouTube video was copied from http://SoundCloud.com
